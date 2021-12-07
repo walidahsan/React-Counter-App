@@ -1,0 +1,85 @@
+.Counter {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.Count {
+  border: 1px solid indianred;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.Minus {
+  background-color: transparent;
+  border: none;
+  color: indianred;
+  padding: 2px 20px;
+  text-align: center;
+  font-size: 2rem;
+  border-right: 1px solid indianred;
+  cursor: pointer;
+}
+.number {
+  background-color: wheat;
+  color: indianred;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus {
+  background-color: indianred;
+  color: white;
+  border: none;
+  padding: 6px 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+.plus:hover {
+  background-color: rgb(145, 76, 76);
+}
+.Values {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 40px rgb(145, 76, 76);
+}
+
+.initialize-input {
+  font-size: 1.5rem;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid indianred;
+  color: indianred;
+  border-radius: 10px;
+  margin: 10px 20px;
+}
+.initialize-input {
+  border: 1px solid indianred;
+}
+.buttons {
+  border: none;
+  background-color: indianred;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.buttons:hover {
+  background-color: rgb(145, 76, 76);
+}
