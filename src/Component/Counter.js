@@ -26,6 +26,9 @@ function Counter() {
   // Max value to Counter
 
   const newmaxValue = () => {
+    if (Counter > maxValue) {
+      setCounter(maxValue);
+    }
     setMaxValue(maxValue);
   };
 
